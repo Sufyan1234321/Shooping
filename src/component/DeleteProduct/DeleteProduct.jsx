@@ -8,7 +8,7 @@ export default function DeleteProduct() {
     async function fetchAllProducts() {
       try {
         const response = await fetch(`${backendUrl}/Dashboard/deletproduct`);
-        const data = await res
+        const data = await response.json();
         
         console.log("Fetched data:", data); // Log the entire response
         
