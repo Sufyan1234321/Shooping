@@ -22,7 +22,7 @@ function Deleteuser() {
 
    async function handlesubmit(e){
     e.preventDefault();
-    const res = await fetch(`${backendUrl}http://localhost:3000/Dashboard/deleteuser`,{
+    const res = await fetch(`${backendUrl}/Dashboard/deleteuser`,{
       method: 'POST',
       headers:{
         'content-type': 'application/json'

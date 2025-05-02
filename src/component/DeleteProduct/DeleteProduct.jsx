@@ -7,8 +7,8 @@ export default function DeleteProduct() {
   useEffect(() => {
     async function fetchAllProducts() {
       try {
-        const response = await fetch('backendUrl/Dashboard/deletproduct');
-        const data = await response.json();
+        const response = await fetch(`${backendUrl}/Dashboard/deletproduct`);
+        const data = await res
         
         console.log("Fetched data:", data); // Log the entire response
         
