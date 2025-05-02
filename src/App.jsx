@@ -52,7 +52,7 @@ function App() {
 
 
             <Route path='Addproduct' element={<Addproduct />}></Route>
-            <Route path='Delete Product' element={<DeleteProduct />}></Route>
+            <Route path='Deleteproduct' element={<DeleteProduct />}></Route>
             
           </Route>
           <Route path='/:category/:Products' element={<Tshirt />}></Route>
