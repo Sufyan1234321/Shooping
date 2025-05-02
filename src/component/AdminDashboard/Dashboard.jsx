@@ -125,7 +125,7 @@ function Dashboard() {
                                 </li>
 
                                 <li className="w-100 mb-2">
-                                    <Link to="/Dashboard/delete product" className="text-black text-decoration-none fs-5 fw-bold d-block w-100 bg-primary p-2 rounded">
+                                    <Link to="/Dashboard/deleteproduct" className="text-black text-decoration-none fs-5 fw-bold d-block w-100 bg-primary p-2 rounded">
                                         delete product
                                     </Link>
 
