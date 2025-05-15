@@ -24,7 +24,7 @@ export default function DeleteProduct() {
     //handle delete product
     const hanleDeletePRoduct = async (category , id)=>{
           try {
-    const response = await fetch(`http://localhost:4000/Dashboard/deleteproduct?category=${selectedCategory}&id=${id}`, {
+    const response = await fetch(`${VITE_BACKEND_URL}/Dashboard/deleteproduct?category=${selectedCategory}&id=${id}`, {
       method: 'POST'
     });
 
