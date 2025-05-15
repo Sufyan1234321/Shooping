@@ -8,7 +8,7 @@ export default function DeleteProduct() {
 
   // Fetch products when category changes
   useEffect(() => {
-    fetch(`${VITE_BACKEND_URL}/Dashboard/deleteproduct?category=${selectedCategory}`)
+    fetch(`${backendUrl}/Dashboard/deleteproduct?category=${selectedCategory}`)
       .then(res => res.json())
       .then(data => setProducts(data))
       .catch(err => console.error("Error fetching products:", err));
@@ -24,7 +24,7 @@ export default function DeleteProduct() {
     //handle delete product
     const hanleDeletePRoduct = async (category , id)=>{
           try {
-    const response = await fetch(`${VITE_BACKEND_URL}/Dashboard/deleteproduct?category=${selectedCategory}&id=${id}`, {
+    const response = await fetch(`${backendUrl}/Dashboard/deleteproduct?category=${selectedCategory}&id=${id}`, {
       method: 'POST'
     });
 
