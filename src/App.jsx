@@ -21,6 +21,7 @@ import ProtectedRoute from './component/ProtectedRoute/ProtectedRoute.jsx';
 import Addproduct from './component/AddProducts/Addproduct.jsx';
 import Cart from './component/Cart/AddToCart.jsx'
 import DeleteProduct from './component/DeleteProduct/DeleteProduct.jsx';
+import EditProduct from './component/EditProduct.jsx';
 
 function App() {
 
@@ -53,6 +54,7 @@ function App() {
 
             <Route path='Addproduct' element={<Addproduct />}></Route>
             <Route path='Deleteproduct' element={<DeleteProduct />}></Route>
+            <Route path='editproduct' element={<EditProduct />}></Route>
             
           </Route>
           <Route path='/:category/:Products' element={<Tshirt />}></Route>

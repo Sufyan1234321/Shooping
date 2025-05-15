@@ -125,14 +125,14 @@ function Dashboard() {
                                 </li>
 
                                 <li className="w-100 mb-2">
-                                    <Link to="/Dashboard/deleteproduct" className="text-black text-decoration-none fs-5 fw-bold d-block w-100 bg-primary p-2 rounded">
+                                    <Link to="deleteproduct" className="text-black text-decoration-none fs-5 fw-bold d-block w-100 bg-primary p-2 rounded">
                                         delete product
                                     </Link>
 
                                 </li>
                                 <li className="w-100 mb-2">
-                                    <Link to="" className="text-black text-decoration-none fs-5 fw-bold w-100 bg-primary rounded d-block p-2">
-                                        edit product
+                                    <Link to="editproduct" className="text-black text-decoration-none fs-5 fw-bold w-100 bg-primary rounded d-block p-2">
+                                       edit product
                                     </Link>
 
                                 </li>
