@@ -38,7 +38,7 @@ function Dashboard() {
     return (
         <React.Fragment>
 
-            <div className="row mt-5">
+            <div className="row mt-5 border rounded">
                 {/* Sidebar */}
                 <div className="col-12 col-md-3 mb-4 ">
                     <div className="bg-info text-white p-3 border border-primary rounded w-100 mb-2">
