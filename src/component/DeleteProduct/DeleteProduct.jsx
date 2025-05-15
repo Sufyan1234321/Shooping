@@ -8,7 +8,7 @@ export default function DeleteProduct() {
 
   // Fetch products when category changes
   useEffect(() => {
-    fetch(`http://localhost:4000/Dashboard/deleteproduct?category=${selectedCategory}`)
+    fetch(`${VITE_BACKEND_URL}/Dashboard/deleteproduct?category=${selectedCategory}`)
       .then(res => res.json())
       .then(data => setProducts(data))
       .catch(err => console.error("Error fetching products:", err));
